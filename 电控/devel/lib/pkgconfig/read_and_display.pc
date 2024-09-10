@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/read_and_display/lib/pkgconfig/read_and_display.pc

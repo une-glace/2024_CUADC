@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/tkdnn_ros/share/roseus/ros/tkdnn_ros/msg/bboxes.l

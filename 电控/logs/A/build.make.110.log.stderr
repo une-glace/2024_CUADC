@@ -1,0 +1,26 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:95:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knt[m[K’ was not declared in this scope
+ [01;31m[Knt[m[K i2=0;
+ [01;31m[K^~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:95:1:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knh[m[K’
+ [01;36m[Knt[m[K i2=0;
+ [01;36m[K^~[m[K
+ [32m[Knh[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:108:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+        [01;31m[Ki[m[K
+        [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:131:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move:timep111111:%d\n",timep[01;35m[K)[m[K;
+                                               [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:139:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep22222:%d\n",timep2[01;35m[K)[m[K;
+                                           [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:159:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move :timep222222:%d\n",timep2[01;35m[K)[m[K;
+                                                 [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:160:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep333333:%d\n",timep3[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2

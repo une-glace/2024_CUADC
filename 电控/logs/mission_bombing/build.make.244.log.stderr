@@ -1,0 +1,12 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:475:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+ [01;31m[Kfor[m[K(int i=1;i<=1000;i++) {serialPort.write("1\n");}
+ [01;31m[K^~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:475:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+ for(int i=1;[01;31m[Ki[m[K<=1000;i++) {serialPort.write("1\n");}
+             [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:475:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+ for(int i=1;i<=1000;[01;31m[Ki[m[K++) {serialPort.write("1\n");}
+                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

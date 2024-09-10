@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/video_publisher/lib/pkgconfig/video_publisher.pc

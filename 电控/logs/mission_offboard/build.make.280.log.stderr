@@ -1,0 +1,7 @@
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:714:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Int32 {aka struct std_msgs::Int32_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KEquals[m[K’
+     if  (wayRea.[01;31m[KEquals[m[K(6))
+                 [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/mission_offboard.dir/src/mission_offboard.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_offboard.dir/all] Error 2
+make: *** [all] Error 2

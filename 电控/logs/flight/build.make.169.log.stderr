@@ -1,0 +1,6 @@
+[01m[Kc++:[m[K [01;31m[Kerror: [m[K/home/amov/catkin_ws/src/flight/src/fly.cpp: No such file or directory
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

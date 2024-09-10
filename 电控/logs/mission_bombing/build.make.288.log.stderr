@@ -1,0 +1,28 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:506:35:[m[K [01;31m[Kerror: [m[K‘[01m[KTwistStamped[m[K’ in namespace ‘[01m[Kmavros_msgs[m[K’ does not name a type
+ void gpsvel_sb(const mavros_msgs::[01;31m[KTwistStamped[m[K::ConstPtr& msg)
+                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:506:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void gpsvel_sb(const mavros_msgs::TwistStamped::ConstPtr[01;31m[K&[m[K msg)
+                                                         [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:506:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:506:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void gpsvel_sb(const mavros_msgs::TwistStamped::ConstPtr& [01;31m[Kmsg[m[K)
+                                                           [01;31m[K^~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:549:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpsvel_sb[m[K’ was not declared in this scope
+  ros::Subscriber plane_gpsvel = nh.subscribe<geometry_msgs::TwistStamped>("/mavros/global_position/raw/gps_vel", 10, [01;31m[Kgpsvel_sb[m[K);
+                                                                                                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:549:118:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgpsraw_sb[m[K’
+  ros::Subscriber plane_gpsvel = nh.subscribe<geometry_msgs::TwistStamped>("/mavros/global_position/raw/gps_vel", 10, [01;36m[Kgpsvel_sb[m[K);
+                                                                                                                      [01;36m[K^~~~~~~~~[m[K
+                                                                                                                      [32m[Kgpsraw_sb[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:617:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpsevl[m[K’ was not declared in this scope
+  <<"\n\t>>gpsvel            =("<<[01;31m[Kgpsevl[m[K.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:617:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgpsvel[m[K’
+  <<"\n\t>>gpsvel            =("<<[01;36m[Kgpsevl[m[K.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
+                                  [01;36m[K^~~~~~[m[K
+                                  [32m[Kgpsvel[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

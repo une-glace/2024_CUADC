@@ -1,0 +1,14 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _tkdnn_ros_generate_messages_check_deps_bbox
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _tkdnn_ros_generate_messages_check_deps_bboxes
+[ 14%] Built target tkdnn_ros_node
+[ 28%] Built target tkdnn_ros_generate_messages_cpp
+[ 50%] Built target tkdnn_ros_generate_messages_eus
+[ 71%] Built target tkdnn_ros_generate_messages_py
+[ 85%] Built target tkdnn_ros_generate_messages_nodejs
+[100%] Built target tkdnn_ros_generate_messages_lisp
+[100%] Built target tkdnn_ros_generate_messages

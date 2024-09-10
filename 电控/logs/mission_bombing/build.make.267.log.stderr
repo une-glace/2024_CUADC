@@ -1,0 +1,36 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:12:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kprint[m[K’ declared void
+ void print([01;31m[Kofstream[m[K data,char * ch){
+            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kofstream[m[K’ was not declared in this scope
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:12:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/bits/localefwd.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:43[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iosfwd:165:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::ofstream[m[K’
+   typedef basic_ofstream<char>   [01;36m[Kofstream[m[K;
+                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:26:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+ void print(ofstream data,[01;31m[Kchar[m[K * ch){
+                          [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:582:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope
+ [01;31m[Kprint[m[K(data,"in while");
+ [01;31m[K^~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:582:1:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/console.h:162:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::console::print[m[K’
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/console.h:35:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/console_backend.h:73:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::console::backend::print[m[K’
+ ROSCONSOLE_BACKEND_DECL void [01;36m[Kprint[m[K(void* logger_handle, ::ros::console::Level level, const char* str, const char* file, const char* function, int line);
+                              [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

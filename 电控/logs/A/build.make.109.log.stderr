@@ -1,0 +1,52 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:109:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+       serialPort.write([01;31m[Kstring[m[K((i++)%60));
+                        [01;31m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:109:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/string:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+   typedef basic_string<char>    [01;36m[Kstring[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:195:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::string[m[K’
+ [01;36m[Kstring[m[K;
+ [01;36m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:131:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move:timep111111:%d\n",timep[01;35m[K)[m[K;
+                                               [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:139:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep22222:%d\n",timep2[01;35m[K)[m[K;
+                                           [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:152:9:[m[K [01;31m[Kerror: [m[Kjump to case label [[01;31m[K-fpermissive[m[K]
+    case [01;31m[K1[m[K:
+         [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:108:12:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint i[m[K’
+        int [01;36m[Ki[m[K=0;
+            [01;36m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:159:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move :timep222222:%d\n",timep2[01;35m[K)[m[K;
+                                                 [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:160:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep333333:%d\n",timep3[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:178:9:[m[K [01;31m[Kerror: [m[Kjump to case label [[01;31m[K-fpermissive[m[K]
+    case [01;31m[K3[m[K:
+         [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:108:12:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint i[m[K’
+        int [01;36m[Ki[m[K=0;
+            [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2

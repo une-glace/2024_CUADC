@@ -1,0 +1,445 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:12:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+ void printa[01;31m[K\[m[K(const std::ofstream &data,string  ch){
+            [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:582:7:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+ printa[01;31m[K\[m[K(data,"in while");
+       [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:655:14:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+        printa[01;31m[K\[m[K(data,"out of 30");
+              [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:663:15:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+         printa[01;31m[K\[m[K(data,"about to bombing");
+               [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ has not been declared
+ void printa\(const std::ofstream &data,[01;31m[Kstring[m[K  ch){
+                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kvoid printa(const ofstream&, int)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:6:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ and ‘[01m[Kint[m[K’)
+  [01;31m[Kdata<<ch[m[K
+  [01;31m[K~~~~^~~~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:108:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}[m[K’ [[01;31m[K-fpermissive[m[K]
+  data<<[01;31m[Kch[m[K
+        [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>] <near match>
+       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:117:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}[m[K’ [[01;31m[K-fpermissive[m[K]
+  data<<[01;31m[Kch[m[K
+        [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:127:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’ [[01;31m[K-fpermissive[m[K]
+  data<<[01;31m[Kch[m[K
+        [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(long __n)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:166:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(unsigned long __n)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:170:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(bool __n)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:174:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+In file included from [01m[K/usr/include/c++/7/ostream:693:0[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>] <near match>
+     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(unsigned short __n)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:181:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+In file included from [01m[K/usr/include/c++/7/ostream:693:0[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>] <near match>
+     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(unsigned int __n)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:192:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(long long __n)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:201:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(unsigned long long __n)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:205:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(double __f)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:220:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(float __f)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:224:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(long double __f)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:232:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ofstream* {aka const std::basic_ofstream<char>*}[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/7/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>] <near match>
+       [01;36m[Koperator[m[K<<(const void* __p)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:245:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst void*[m[K’ [[01;31m[K-fpermissive[m[K]
+  data<<[01;31m[Kch[m[K
+        [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/ostream:693:0[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>] <near match>
+     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}[m[K’ [[01;31m[K-fpermissive[m[K]
+  data<<[01;31m[Kch[m[K
+        [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h:207:29:[m[K [01;36m[Knote: [m[Kcandidate: std::ostream& operator<<(std::ostream&, const XmlRpc::XmlRpcValue&) <near match>
+ XMLRPCPP_DECL std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const XmlRpc::XmlRpcValue& v);
+                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h:207:29:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:2:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kstd::ostream& {aka std::basic_ostream<char>&}[m[K’ to ‘[01m[Kconst std::basic_ostream<char>[m[K’ discards qualifiers
+  [01;31m[Kdata[m[K<<ch
+  [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:6:[m[K [01;36m[Knote: [m[Kcandidate: operator<<(int, int) <built-in>
+  [01;36m[Kdata<<ch[m[K
+  [01;36m[K~~~~^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:6:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ to ‘[01m[Kint[m[K’
+In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)
+     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/config/no_tr1/complex.hpp:21:0[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/complex:528:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/complex:528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:682:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)
+     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:682:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/7/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = const std::basic_ofstream<char>&; _Tp = int][m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K   required from here
+[01m[K/usr/include/c++/7/ostream:682:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[01m[K/usr/include/c++/7/ostream:574:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:574:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:569:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:569:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:556:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:556:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/ostream:693:0[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:539:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:539:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:519:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:519:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:514:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:514:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:508:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:508:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:502:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:502:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/ostream:497:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/ostream:497:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/ios_base.h:46:0[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/system_error:217:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/system_error:217:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6284:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6284:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:502:8:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst ofstream {aka const std::basic_ofstream<char>}[m[K’ have incompatible cv-qualifiers
+  data<<[01;36m[Kch[m[K
+        [01;36m[K^~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:582:24:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+ printa\(data,"in while"[01;31m[K)[m[K;
+                        [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:6:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid printa(const ofstream&, int)[m[K’
+ void [01;36m[Kprinta[m[K\(const std::ofstream &data,string  ch){
+      [01;36m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:655:32:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+        printa\(data,"out of 30"[01;31m[K)[m[K;
+                                [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:6:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid printa(const ofstream&, int)[m[K’
+ void [01;36m[Kprinta[m[K\(const std::ofstream &data,string  ch){
+      [01;36m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:663:40:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+         printa\(data,"about to bombing"[01;31m[K)[m[K;
+                                        [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:500:6:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid printa(const ofstream&, int)[m[K’
+ void [01;36m[Kprinta[m[K\(const std::ofstream &data,string  ch){
+      [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

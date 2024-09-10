@@ -1,0 +1,14 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/test3.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbombing/header.h: 没有那个文件或目录
+ #include [01;31m[K"bombing/header.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/test2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbombing/header.h: 没有那个文件或目录
+ #include [01;31m[K"bombing/header.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/test3.dir/src/test3.cpp.o] Error 1
+make[2]: *** [CMakeFiles/test2.dir/src/test2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/test3.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/test2.dir/all] Error 2
+make: *** [all] Error 2

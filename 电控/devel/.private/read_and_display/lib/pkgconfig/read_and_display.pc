@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/devel/.private/read_and_display
+
+Name: read_and_display
+Description: Description of read_and_display
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

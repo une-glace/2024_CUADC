@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/flight/share/flight/cmake/flightConfig.cmake

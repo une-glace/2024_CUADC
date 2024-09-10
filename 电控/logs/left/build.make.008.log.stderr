@@ -1,0 +1,18 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/left/src/left.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/left/src/left.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/left/src/left.cpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   [01;36m[KR[m[KOS_INFO("not connected");
+   [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/left.dir/src/left.cpp.o] Error 1
+make[1]: *** [CMakeFiles/left.dir/all] Error 2
+make: *** [all] Error 2

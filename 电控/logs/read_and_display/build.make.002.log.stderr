@@ -1,0 +1,30 @@
+CMakeFiles/read_and_display.dir/src/read_and_display.cpp.o: In function `main':
+read_and_display.cpp:(.text+0x5c): undefined reference to `ros::init(int&, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int)'
+read_and_display.cpp:(.text+0xa0): undefined reference to `ros::NodeHandle::NodeHandle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&)'
+read_and_display.cpp:(.text+0x228): undefined reference to `ros::console::g_initialized'
+read_and_display.cpp:(.text+0x22c): undefined reference to `ros::console::g_initialized'
+read_and_display.cpp:(.text+0x248): undefined reference to `ros::console::initialize()'
+read_and_display.cpp:(.text+0x298): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+read_and_display.cpp:(.text+0x2dc): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+read_and_display.cpp:(.text+0x2e8): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+read_and_display.cpp:(.text+0x350): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+read_and_display.cpp:(.text+0x368): undefined reference to `ros::console::g_initialized'
+read_and_display.cpp:(.text+0x36c): undefined reference to `ros::console::g_initialized'
+read_and_display.cpp:(.text+0x388): undefined reference to `ros::console::initialize()'
+read_and_display.cpp:(.text+0x3d8): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+read_and_display.cpp:(.text+0x41c): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+read_and_display.cpp:(.text+0x428): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+read_and_display.cpp:(.text+0x490): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+read_and_display.cpp:(.text+0x4a8): undefined reference to `ros::console::g_initialized'
+read_and_display.cpp:(.text+0x4ac): undefined reference to `ros::console::g_initialized'
+read_and_display.cpp:(.text+0x4c8): undefined reference to `ros::console::initialize()'
+read_and_display.cpp:(.text+0x518): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+read_and_display.cpp:(.text+0x55c): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+read_and_display.cpp:(.text+0x568): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+read_and_display.cpp:(.text+0x5d0): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+read_and_display.cpp:(.text+0x5e4): undefined reference to `ros::NodeHandle::~NodeHandle()'
+read_and_display.cpp:(.text+0x6ec): undefined reference to `ros::NodeHandle::~NodeHandle()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/amov/catkin_ws/devel/.private/read_and_display/lib/read_and_display/read_and_display] Error 1
+make[1]: *** [CMakeFiles/read_and_display.dir/all] Error 2
+make: *** [all] Error 2

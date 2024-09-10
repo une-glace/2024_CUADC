@@ -1,0 +1,17 @@
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:167:3:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K1[m[K’ not within a switch statement
+   [01;31m[Kcase[m[K 1: {
+   [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:192:3:[m[K [01;31m[Kerror: [m[Kcase label not within a switch statement
+   [01;31m[Kdefault[m[K: {
+   [01;31m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:[m[K At global scope:
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:198:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   [01;31m[Kreturn[m[K 0;
+   [01;31m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:199:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/bombing.dir/src/bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bombing.dir/all] Error 2
+make: *** [all] Error 2

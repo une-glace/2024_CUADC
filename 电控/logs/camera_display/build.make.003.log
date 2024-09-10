@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_display[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_display.dir/src/camera_display.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/amov/catkin_ws/devel/.private/camera_display/lib/camera_display/camera_display[0m
+/usr/bin/ld: warning: libopencv_core.so.4.5, needed by /usr/local/lib/libopencv_highgui.so.4.5.4, may conflict with libopencv_core.so.3.2
+[100%] Built target camera_display

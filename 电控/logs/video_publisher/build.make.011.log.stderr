@@ -1,0 +1,13 @@
+CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o: In function `main':
+video_publisher_node.cpp:(.text+0x114): undefined reference to `cv::VideoCapture::VideoCapture(int, int)'
+video_publisher_node.cpp:(.text+0x12c): undefined reference to `cv::Mat::Mat()'
+video_publisher_node.cpp:(.text+0x130): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+video_publisher_node.cpp:(.text+0x134): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+video_publisher_node.cpp:(.text+0x148): undefined reference to `cv::Mat::empty() const'
+video_publisher_node.cpp:(.text+0x1f8): undefined reference to `cv::VideoCapture::release()'
+video_publisher_node.cpp:(.text+0x204): undefined reference to `cv::VideoCapture::~VideoCapture()'
+video_publisher_node.cpp:(.text+0x304): undefined reference to `cv::VideoCapture::~VideoCapture()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/amov/catkin_ws/devel/.private/video_publisher/lib/video_publisher/video_publisher_node] Error 1
+make[1]: *** [CMakeFiles/video_publisher_node.dir/all] Error 2
+make: *** [all] Error 2

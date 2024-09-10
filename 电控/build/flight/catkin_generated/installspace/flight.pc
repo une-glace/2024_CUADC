@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/install
+
+Name: flight
+Description: Description of flight
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs

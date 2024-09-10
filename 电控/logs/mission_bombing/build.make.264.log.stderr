@@ -1,0 +1,21 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:571:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+ print("in while"[01;35m[K)[m[K;
+                 [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:644:25:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+        print("out of 30"[01;35m[K)[m[K;
+                         [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:652:33:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+         print("about to bombing"[01;35m[K)[m[K;
+                                 [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kvoid print(char*)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:687:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+  [01;31m[Kdata[m[K<<ch
+  [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:687:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Katan[m[K’
+  [01;36m[Kdata[m[K<<ch
+  [01;36m[K^~~~[m[K
+  [32m[Katan[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

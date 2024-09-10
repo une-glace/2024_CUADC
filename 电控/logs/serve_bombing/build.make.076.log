@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/serve_bombing.dir/src/serve_bombing.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/amov/catkin_ws/devel/.private/serve_bombing/lib/serve_bombing/serve_bombing[0m
+[100%] Built target serve_bombing

@@ -1,0 +1,210 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(const char*)[m[K’
+      ROS_ERROR(std::to_string("SERVO SPINING !!!!"+i2[01;31m[K)[m[K);
+                                                      [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(std::to_string("SERVO SPINING !!!!"+i2));
+      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(int) <near match>
+   [01;36m[Kto_string[m[K(int __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:51:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+      ROS_ERROR(std::to_string([01;31m[K"SERVO SPINING !!!!"+i[m[K2));
+                               [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(std::to_string("SERVO SPINING !!!!"+i2));
+      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(unsigned int) <near match>
+   [01;36m[Kto_string[m[K(unsigned __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:51:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kunsigned int[m[K’ [[01;31m[K-fpermissive[m[K]
+      ROS_ERROR(std::to_string([01;31m[K"SERVO SPINING !!!!"+i[m[K2));
+                               [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(std::to_string("SERVO SPINING !!!!"+i2));
+      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long int) <near match>
+   [01;36m[Kto_string[m[K(long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:51:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong int[m[K’ [[01;31m[K-fpermissive[m[K]
+      ROS_ERROR(std::to_string([01;31m[K"SERVO SPINING !!!!"+i[m[K2));
+                               [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(std::to_string("SERVO SPINING !!!!"+i2));
+      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long unsigned int) <near match>
+   [01;36m[Kto_string[m[K(unsigned long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:51:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;31m[K-fpermissive[m[K]
+      ROS_ERROR(std::to_string([01;31m[K"SERVO SPINING !!!!"+i[m[K2));
+                               [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(std::to_string("SERVO SPINING !!!!"+i2));
+      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long int) <near match>
+   [01;36m[Kto_string[m[K(long long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:51:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong long int[m[K’ [[01;31m[K-fpermissive[m[K]
+      ROS_ERROR(std::to_string([01;31m[K"SERVO SPINING !!!!"+i[m[K2));
+                               [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(std::to_string("SERVO SPINING !!!!"+i2));
+      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long unsigned int) <near match>
+   [01;36m[Kto_string[m[K(unsigned long long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:51:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong long unsigned int[m[K’ [[01;31m[K-fpermissive[m[K]
+      ROS_ERROR(std::to_string([01;31m[K"SERVO SPINING !!!!"+i[m[K2));
+                               [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:110:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(std::to_string("SERVO SPINING !!!!"+i2));
+      [01;36m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:131:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move:timep111111:%d\n",timep[01;35m[K)[m[K;
+                                               [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:139:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep22222:%d\n",timep2[01;35m[K)[m[K;
+                                           [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:159:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move :timep222222:%d\n",timep2[01;35m[K)[m[K;
+                                                 [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:160:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep333333:%d\n",timep3[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2

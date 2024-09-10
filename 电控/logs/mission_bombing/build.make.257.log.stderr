@@ -1,0 +1,139 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:466:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+ [01;31m[Knav_msgs[m[K::Odometry local_pos_odom;
+ [01;31m[K^~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kvoid local_pos_odom_sb(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:485:2:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_pos_odom[m[K’ was not declared in this scope
+  [01;31m[Klocal_pos_odom[m[K = *msg;
+  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:485:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klocal_pos_odom_sb[m[K’
+  [01;36m[Klocal_pos_odom[m[K = *msg;
+  [01;36m[K^~~~~~~~~~~~~~[m[K
+  [32m[Klocal_pos_odom_sb[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:54:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<[01;31m[Knav_msgs[m[K::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb);
+                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:44:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  ros::Subscriber plane_local_pos_odom = nh.[01;31m[Ksubscribe<nav_msgs::Odometry>[m[K("/mavros/local_position/odom", 10, local_pos_odom_sb);
+                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe<<expression error> >(const char [28], int, void (&)(const ConstPtr&))[m[K’
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:503:126:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Subscriber plane_local_pos_odom = nh.subscribe<nav_msgs::Odometry>("/mavros/local_position/odom", 10, local_pos_odom_sb[01;31m[K)[m[K;
+                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:570:78:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_pos_odom[m[K’ was not declared in this scope
+   <<"local_v="<<local_v<<"\n\tbody_v="<<local_v_body<<"\n\tlocal_pos_odom="<<[01;31m[Klocal_pos_odom[m[K<<"\n";
+                                                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:570:78:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klocal_pos_odom_sb[m[K’
+   <<"local_v="<<local_v<<"\n\tbody_v="<<local_v_body<<"\n\tlocal_pos_odom="<<[01;36m[Klocal_pos_odom[m[K<<"\n";
+                                                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+                                                                              [32m[Klocal_pos_odom_sb[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

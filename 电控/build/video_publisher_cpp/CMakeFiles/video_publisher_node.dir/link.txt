@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o -o /home/amov/catkin_ws/devel/.private/video_publisher_cpp/lib/video_publisher_cpp/video_publisher_node 

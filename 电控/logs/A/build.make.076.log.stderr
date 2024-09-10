@@ -1,0 +1,11 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:174:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kltm[m[K’ was not declared in this scope
+   serialPort.write(std::__cxx11::to_string([01;31m[Kltm[m[K->tm_sec)+"\n");//added for testing by geyiheng
+                                            [01;31m[K^~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:174:44:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktm[m[K’
+   serialPort.write(std::__cxx11::to_string([01;36m[Kltm[m[K->tm_sec)+"\n");//added for testing by geyiheng
+                                            [01;36m[K^~~[m[K
+                                            [32m[Ktm[m[K
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2

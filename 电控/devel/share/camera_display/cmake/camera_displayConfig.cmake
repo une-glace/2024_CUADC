@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/camera_display/share/camera_display/cmake/camera_displayConfig.cmake

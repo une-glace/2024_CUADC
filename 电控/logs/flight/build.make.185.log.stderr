@@ -1,0 +1,7 @@
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:51:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Klocal_pos_transfer.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+  float data[] = {[01;35m[Klocal_pos_transfer.pose.position.x[m[K, local_pos_transfer.pose.position.y};
+                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:87:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Klocal_pos_transfer.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+  float data[] = {local_pos_transfer.pose.position.x, [01;35m[Klocal_pos_transfer.pose.position.y[m[K};
+                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K

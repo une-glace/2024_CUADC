@@ -1,0 +1,46 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:28:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msg[m[K’ does not name a type
+ [01;31m[Kmavros_msg[m[K::ActuatorControl current_act_control;
+ [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:29:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msg[m[K’ does not name a type
+ [01;31m[Kmavros_msg[m[K::ActuatorControl target_act_control;
+ [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:31:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msg[m[K’ does not name a type
+ void act_control_cb(const [01;31m[Kmavros_msg[m[K::ActuatorControl& msg)
+                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:31:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void act_control_cb(const mavros_msg::ActuatorControl[01;31m[K&[m[K msg)
+                                                      [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:31:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:31:56:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void act_control_cb(const mavros_msg::ActuatorControl& [01;31m[Kmsg[m[K)
+                                                        [01;31m[K^~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:60:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kact_control_cb[m[K’ was not declared in this scope
+  ros::Subscriber act_control_sub = nh.subscribe("/mavros/actuator_control", 10, [01;31m[Kact_control_cb[m[K);
+                                                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:60:81:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kact_control_sub[m[K’
+  ros::Subscriber act_control_sub = nh.subscribe("/mavros/actuator_control", 10, [01;36m[Kact_control_cb[m[K);
+                                                                                 [01;36m[K^~~~~~~~~~~~~~[m[K
+                                                                                 [32m[Kact_control_sub[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:61:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::NodeHandle[m[K’ has no member named ‘[01m[Kpublisher[m[K’
+     ros::Publisher act_control_pub = nh.[01;31m[Kpublisher[m[K("/mavros/actuator_control", 10);
+                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:68:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ was not declared in this scope
+  pose.pose.position.y =[01;31m[Kr[m[K-120.000;
+                        [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:163:3:[m[K [01;31m[Kerror: [m[K‘[01m[Karget_act_control[m[K’ was not declared in this scope
+   [01;31m[Karget_act_control[m[K = current_act_control;
+   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:163:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_act_control[m[K’ was not declared in this scope
+   arget_act_control = [01;31m[Kcurrent_act_control[m[K;
+                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:163:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcurrent_state[m[K’
+   arget_act_control = [01;36m[Kcurrent_act_control[m[K;
+                       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+                       [32m[Kcurrent_state[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:164:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_act_control[m[K’ was not declared in this scope
+         [01;31m[Ktarget_act_control[m[K.group_mix = 5;
+         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2

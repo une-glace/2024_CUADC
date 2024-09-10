@@ -1,0 +1,1 @@
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/melodic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5

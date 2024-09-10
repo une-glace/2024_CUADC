@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake

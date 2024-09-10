@@ -1,0 +1,13 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:130:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move:timep111111:%d\n",timep[01;35m[K)[m[K;
+                                               [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:138:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep22222:%d\n",timep2[01;35m[K)[m[K;
+                                           [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:158:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move :timep222222:%d\n",timep2[01;35m[K)[m[K;
+                                                 [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:159:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep333333:%d\n",timep3[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K

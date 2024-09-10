@@ -1,0 +1,12 @@
+[01m[K/home/amov/catkin_ws/src/serve_bombing/src/serve_bombing.cpp:39:12:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+ ros::spin()[01;31m[K;[m[K
+            [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/serve_bombing/src/serve_bombing.cpp:40:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+     [01;31m[Kreturn[m[K 0;
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/serve_bombing/src/serve_bombing.cpp:41:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/serve_bombing.dir/src/serve_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/serve_bombing.dir/all] Error 2
+make: *** [all] Error 2

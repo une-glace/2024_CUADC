@@ -1,0 +1,1794 @@
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79439	relative:-2.79439
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7947	relative:-2.7947
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7947	relative:-2.7947
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7947	relative:-2.7947
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7947	relative:-2.7947
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79537	relative:-2.79537
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79537	relative:-2.79537
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79537	relative:-2.79537
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79577	relative:-2.79577
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79577	relative:-2.79577
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79577	relative:-2.79577
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79577	relative:-2.79577
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79639	relative:-2.79639
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79639	relative:-2.79639
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79639	relative:-2.79639
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79672	relative:-2.79672
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79672	relative:-2.79672
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79672	relative:-2.79672
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79725	relative:-2.79725
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79725	relative:-2.79725
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79725	relative:-2.79725
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79725	relative:-2.79725
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79719	relative:-2.79719
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79719	relative:-2.79719
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79719	relative:-2.79719
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79678	relative:-2.79678
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79678	relative:-2.79678
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79678	relative:-2.79678
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79678	relative:-2.79678
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79574	relative:-2.79574
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79574	relative:-2.79574
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79574	relative:-2.79574
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79463	relative:-2.79463
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79463	relative:-2.79463
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79463	relative:-2.79463
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79463	relative:-2.79463
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79366	relative:-2.79366
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79366	relative:-2.79366
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79327	relative:-2.79327
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79327	relative:-2.79327
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79327	relative:-2.79327
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79327	relative:-2.79327
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7932	relative:-2.7932
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7932	relative:-2.7932
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7932	relative:-2.7932
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7932	relative:-2.7932
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79334	relative:-2.79334
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79334	relative:-2.79334
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79334	relative:-2.79334
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79318	relative:-2.79318
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79318	relative:-2.79318
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79318	relative:-2.79318
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79291	relative:-2.79291
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79291	relative:-2.79291
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79291	relative:-2.79291
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79291	relative:-2.79291
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79259	relative:-2.79259
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79259	relative:-2.79259
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79259	relative:-2.79259
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79244	relative:-2.79244
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79244	relative:-2.79244
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79244	relative:-2.79244
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79244	relative:-2.79244
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79253	relative:-2.79253
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79253	relative:-2.79253
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79253	relative:-2.79253
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79253	relative:-2.79253
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79283	relative:-2.79283
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79283	relative:-2.79283
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79283	relative:-2.79283
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7932	relative:-2.7932
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7932	relative:-2.7932
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.7932	relative:-2.7932
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.794	relative:-2.794
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.794	relative:-2.794
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.794	relative:-2.794
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.794	relative:-2.794
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79506	relative:-2.79506
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79506	relative:-2.79506
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79617	relative:-2.79617
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79617	relative:-2.79617
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79617	relative:-2.79617
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79706	relative:-2.79706
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79706	relative:-2.79706
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79706	relative:-2.79706
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79706	relative:-2.79706
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79829	relative:-2.79829
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79829	relative:-2.79829
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79829	relative:-2.79829
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79887	relative:-2.79887
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79887	relative:-2.79887
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79887	relative:-2.79887
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79887	relative:-2.79887
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79921	relative:-2.79921
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79921	relative:-2.79921
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.79921	relative:-2.79921
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80015	relative:-2.80015
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80015	relative:-2.80015
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80015	relative:-2.80015
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80015	relative:-2.80015
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80119	relative:-2.80119
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80119	relative:-2.80119
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80119	relative:-2.80119
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80214	relative:-2.80214
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80214	relative:-2.80214
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80214	relative:-2.80214
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80214	relative:-2.80214
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80308	relative:-2.80308
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80308	relative:-2.80308
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80308	relative:-2.80308
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80308	relative:-2.80308
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80389	relative:-2.80389
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80389	relative:-2.80389
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80483	relative:-2.80483
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80483	relative:-2.80483
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80483	relative:-2.80483
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80483	relative:-2.80483
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80549	relative:-2.80549
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80549	relative:-2.80549
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80549	relative:-2.80549
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80576	relative:-2.80576
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80576	relative:-2.80576
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80576	relative:-2.80576
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80563	relative:-2.80563
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80563	relative:-2.80563
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80563	relative:-2.80563
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80563	relative:-2.80563
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80558	relative:-2.80558
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80558	relative:-2.80558
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80558	relative:-2.80558
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80558	relative:-2.80558
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80569	relative:-2.80569
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80569	relative:-2.80569
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80569	relative:-2.80569
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80569	relative:-2.80569
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80549	relative:-2.80549
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80549	relative:-2.80549
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(0,	0,	0)
+	>>local_odom    =(0,	0,	0)
+	>>global_odom =(0,	0,	0)
+	>>gpsraw            	 =(13.0826)
+	>>mav_alt            =(local:-2.80549	relative:-2.80549
+	>>rel_alt                =(0)
+	>>local_v              =(0,	0,	0)
+	>>body_v             =(0,	0,	0)
+	>>gpsvel               =(0,	0,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)

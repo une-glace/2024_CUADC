@@ -1,0 +1,14 @@
+CMakeFiles/camera_display.dir/src/camera_display.cpp.o: In function `main':
+camera_display.cpp:(.text+0x110): undefined reference to `cv::VideoCapture::VideoCapture(int)'
+camera_display.cpp:(.text+0x118): undefined reference to `cv::VideoCapture::isOpened() const'
+camera_display.cpp:(.text+0x274): undefined reference to `cv::VideoCapture::get(int) const'
+camera_display.cpp:(.text+0x288): undefined reference to `cv::VideoCapture::get(int) const'
+camera_display.cpp:(.text+0x2f4): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+camera_display.cpp:(.text+0x2f8): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+camera_display.cpp:(.text+0x388): undefined reference to `cv::VideoCapture::release()'
+camera_display.cpp:(.text+0x39c): undefined reference to `cv::VideoCapture::~VideoCapture()'
+camera_display.cpp:(.text+0x494): undefined reference to `cv::VideoCapture::~VideoCapture()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/amov/catkin_ws/devel/.private/camera_display/lib/camera_display/camera_display] Error 1
+make[1]: *** [CMakeFiles/camera_display.dir/all] Error 2
+make: *** [all] Error 2

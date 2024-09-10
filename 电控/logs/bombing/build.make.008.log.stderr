@@ -1,0 +1,6 @@
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:199:2:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }[01;31m[K}[m[K
+  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/bombing.dir/src/bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bombing.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid local_pos_sb(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:73:26:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kmsg[m[K’ from ‘[01m[Kconst ConstPtr {aka const boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >}[m[K’ to ‘[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K’
+  position_transfer_write([01;31m[Kmsg[m[K);
+                          [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

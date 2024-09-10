@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/devel/.private/video_publisher
+
+Name: video_publisher
+Description: Description of video_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs cv_bridge

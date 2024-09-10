@@ -1,0 +1,9 @@
+[01m[K/home/amov/catkin_ws/src/write_to_txt/src/write_to_txt_node.cpp:28:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+ [01;31m[K`[m[K` std::cout<<std::endl;
+ [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/write_to_txt/src/write_to_txt_node.cpp:28:2:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+ `[01;31m[K`[m[K std::cout<<std::endl;
+  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/write_to_txt_node.dir/src/write_to_txt_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/write_to_txt_node.dir/all] Error 2
+make: *** [all] Error 2
