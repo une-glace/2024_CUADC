@@ -1,1 +1,0 @@
-/home/amov/catkin_ws/devel/.private/S/share/S/cmake/SConfig.cmake

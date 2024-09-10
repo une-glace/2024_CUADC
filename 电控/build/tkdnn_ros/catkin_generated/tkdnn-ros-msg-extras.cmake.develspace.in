@@ -1,2 +1,0 @@
-set(tkdnn-ros_MESSAGE_FILES "/home/amov/catkin_ws/src/tkdnn-ros/msg/bbox.msg;/home/amov/catkin_ws/src/tkdnn-ros/msg/bboxes.msg")
-set(tkdnn-ros_SERVICE_FILES "")

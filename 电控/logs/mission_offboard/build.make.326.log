@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target mission_offboard[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/mission_offboard.dir/src/mission_offboard.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/amov/catkin_ws/devel/.private/mission_offboard/lib/mission_offboard/mission_offboard[0m
-[100%] Built target mission_offboard

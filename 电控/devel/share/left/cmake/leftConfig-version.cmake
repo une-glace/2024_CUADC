@@ -1,1 +1,0 @@
-/home/amov/catkin_ws/devel/.private/left/share/left/cmake/leftConfig-version.cmake
