@@ -1,1 +1,0 @@
-/home/amov/catkin_ws/devel/.private/B/share/B/cmake/BConfig.cmake

@@ -1,8 +1,0 @@
-prefix=/home/amov/catkin_ws/devel/.private/mission_camera
-
-Name: mission_camera
-Description: Description of mission_camera
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

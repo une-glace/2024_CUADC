@@ -1,8 +1,0 @@
-prefix=/home/amov/catkin_ws/install
-
-Name: bombing
-Description: Description of bombing
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
