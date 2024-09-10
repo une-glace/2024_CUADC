@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/tkdnn_ros/share/gennodejs/ros/tkdnn_ros/msg/bbox.js

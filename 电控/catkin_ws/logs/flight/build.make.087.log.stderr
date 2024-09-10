@@ -1,0 +1,35 @@
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped*)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:56:47:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.x=local_pos.[01;31m[Kpose[m[K.position.x*matrix[0][0]+local_pos.pose.position.y*matrix[0][1]+local_pos.pose.position.z*matrix[0][2];
+                                               [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:56:86:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.x=local_pos.pose.position.x*matrix[0][0]+local_pos.[01;31m[Kpose[m[K.position.y*matrix[0][1]+local_pos.pose.position.z*matrix[0][2];
+                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:56:125:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.x=local_pos.pose.position.x*matrix[0][0]+local_pos.pose.position.y*matrix[0][1]+local_pos.[01;31m[Kpose[m[K.position.z*matrix[0][2];
+                                                                                                                             [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:57:47:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.y=local_pos.[01;31m[Kpose[m[K.position.x*matrix[1][0]+local_pos.pose.position.y*matrix[1][1]+local_pos.pose.position.z*matrix[1][2];
+                                               [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:57:86:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.y=local_pos.pose.position.x*matrix[1][0]+local_pos.[01;31m[Kpose[m[K.position.y*matrix[1][1]+local_pos.pose.position.z*matrix[1][2];
+                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:57:125:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.y=local_pos.pose.position.x*matrix[1][0]+local_pos.pose.position.y*matrix[1][1]+local_pos.[01;31m[Kpose[m[K.position.z*matrix[1][2];
+                                                                                                                             [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:58:47:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.z=local_pos.[01;31m[Kpose[m[K.position.x*matrix[2][0]+local_pos.pose.position.y*matrix[2][1]+local_pos.pose.position.z*matrix[2][2];
+                                               [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:58:86:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.z=local_pos.pose.position.x*matrix[2][0]+local_pos.[01;31m[Kpose[m[K.position.y*matrix[2][1]+local_pos.pose.position.z*matrix[2][2];
+                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:58:125:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Klocal_pos[m[K’, which is of pointer type ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  local_pos_transfer.pose.position.z=local_pos.pose.position.x*matrix[2][0]+local_pos.pose.position.y*matrix[2][1]+local_pos.[01;31m[Kpose[m[K.position.z*matrix[2][2];
+                                                                                                                             [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid local_pos_sb(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:73:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst ConstPtr {aka const boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >}[m[K’ to ‘[01m[Kgeometry_msgs::PoseStamped* {aka geometry_msgs::PoseStamped_<std::allocator<void> >*}[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped*)[m[K’
+  position_transfer_write(msg[01;31m[K)[m[K;
+                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

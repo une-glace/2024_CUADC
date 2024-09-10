@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:17:
+  Parse error.  Expected a newline, got identifier with text "vvvvvvvvv".
+
+[0m
+make: *** [cmake_check_build_system] Error 1

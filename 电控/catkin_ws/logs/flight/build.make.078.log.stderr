@@ -1,0 +1,56 @@
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:56:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+  local_pos_transfer.pose.[01;31m[Kx[m[K=local_pos.pose.x*matrix[0][0]+local_pos.pose.y*matrix[0][1]+local_pos.pose.z*matrix[0][2];
+                          [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:56:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+  local_pos_transfer.pose.x=local_pos.pose.[01;31m[Kx[m[K*matrix[0][0]+local_pos.pose.y*matrix[0][1]+local_pos.pose.z*matrix[0][2];
+                                           [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:56:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+  local_pos_transfer.pose.x=local_pos.pose.x*matrix[0][0]+local_pos.pose.[01;31m[Ky[m[K*matrix[0][1]+local_pos.pose.z*matrix[0][2];
+                                                                         [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:56:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+  local_pos_transfer.pose.x=local_pos.pose.x*matrix[0][0]+local_pos.pose.y*matrix[0][1]+local_pos.pose.[01;31m[Kz[m[K*matrix[0][2];
+                                                                                                       [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:57:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+  local_pos_transfer.pose.[01;31m[Ky[m[K=local_pos.pose.x*matrix[1][0]+local_pos.pose.y*matrix[1][1]+local_pos.pose.z*matrix[1][2];
+                          [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:57:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+  local_pos_transfer.pose.y=local_pos.pose.[01;31m[Kx[m[K*matrix[1][0]+local_pos.pose.y*matrix[1][1]+local_pos.pose.z*matrix[1][2];
+                                           [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:57:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+  local_pos_transfer.pose.y=local_pos.pose.x*matrix[1][0]+local_pos.pose.[01;31m[Ky[m[K*matrix[1][1]+local_pos.pose.z*matrix[1][2];
+                                                                         [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:57:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+  local_pos_transfer.pose.y=local_pos.pose.x*matrix[1][0]+local_pos.pose.y*matrix[1][1]+local_pos.pose.[01;31m[Kz[m[K*matrix[1][2];
+                                                                                                       [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:58:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+  local_pos_transfer.pose.[01;31m[Kz[m[K=local_pos.pose.x*matrix[2][0]+local_pos.pose.y*matrix[2][1]+local_pos.pose.z*matrix[2][2];
+                          [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:58:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+  local_pos_transfer.pose.z=local_pos.pose.[01;31m[Kx[m[K*matrix[2][0]+local_pos.pose.y*matrix[2][1]+local_pos.pose.z*matrix[2][2];
+                                           [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:58:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+  local_pos_transfer.pose.z=local_pos.pose.x*matrix[2][0]+local_pos.pose.[01;31m[Ky[m[K*matrix[2][1]+local_pos.pose.z*matrix[2][2];
+                                                                         [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:58:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+  local_pos_transfer.pose.z=local_pos.pose.x*matrix[2][0]+local_pos.pose.y*matrix[2][1]+local_pos.pose.[01;31m[Kz[m[K*matrix[2][2];
+                                                                                                       [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+  outFile <<local_pos_transfer.pose.[01;31m[Kx[m[K << " " << local_pos_transfer.pose.y << " " << local_pos_transfer.pose.z << std::endl;
+                                    [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+  outFile <<local_pos_transfer.pose.x << " " << local_pos_transfer.pose.[01;31m[Ky[m[K << " " << local_pos_transfer.pose.z << std::endl;
+                                                                        [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:108:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+  outFile <<local_pos_transfer.pose.x << " " << local_pos_transfer.pose.y << " " << local_pos_transfer.pose.[01;31m[Kz[m[K << std::endl;
+                                                                                                            [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid local_pos_sb(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:73:26:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kgeometry_msgs::PoseStamped& {aka geometry_msgs::PoseStamped_<std::allocator<void> >&}[m[K’ to ‘[01m[Kconst geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’ discards qualifiers
+  position_transfer_write([01;31m[K*msg[m[K);
+                          [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:54:13:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped&)[m[K’
+ inline void [01;36m[Kposition_transfer_write[m[K(geometry_msgs::PoseStamped &local_pos){
+             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

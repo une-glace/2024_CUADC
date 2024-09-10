@@ -1,0 +1,16 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:166:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::ActuatorControl {aka struct mavros_msgs::ActuatorControl_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcontrol[m[K’; did you mean ‘[01m[Kcontrols[m[K’?
+         target_act_control.[01;31m[Kcontrol[m[K[4] = 1.0;
+                            [01;31m[K^~~~~~~[m[K
+                            [32m[Kcontrols[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:167:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::ActuatorControl {aka struct mavros_msgs::ActuatorControl_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcontrol[m[K’; did you mean ‘[01m[Kcontrols[m[K’?
+   target_act_control.[01;31m[Kcontrol[m[K[3] = 1.0;
+                      [01;31m[K^~~~~~~[m[K
+                      [32m[Kcontrols[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:168:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::ActuatorControl {aka struct mavros_msgs::ActuatorControl_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcontrol[m[K’; did you mean ‘[01m[Kcontrols[m[K’?
+   target_act_control.[01;31m[Kcontrol[m[K[0] = 0.5;
+                      [01;31m[K^~~~~~~[m[K
+                      [32m[Kcontrols[m[K
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2

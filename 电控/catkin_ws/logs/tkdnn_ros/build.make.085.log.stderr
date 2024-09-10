@@ -1,0 +1,10 @@
+In file included from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/Yolo3Detection.h:6:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:19[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/src/main.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/DetectionNN.h:13:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No such file or directory
+ #include [01;31m[K<Eigen/Dense>[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/tkdnn_ros_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/tkdnn_ros_node.dir/all] Error 2
+make: *** [all] Error 2

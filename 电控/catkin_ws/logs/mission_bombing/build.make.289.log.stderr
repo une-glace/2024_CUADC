@@ -1,0 +1,11 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:617:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpsevl[m[K’ was not declared in this scope
+  <<"\n\t>>gpsvel            =("<<[01;31m[Kgpsevl[m[K.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:617:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgpsvel[m[K’
+  <<"\n\t>>gpsvel            =("<<[01;36m[Kgpsevl[m[K.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
+                                  [01;36m[K^~~~~~[m[K
+                                  [32m[Kgpsvel[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

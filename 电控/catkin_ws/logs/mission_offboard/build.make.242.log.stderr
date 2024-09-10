@@ -1,0 +1,25 @@
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:718:27:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+       if (distance>30){:%d[01;31m[K\[m[Kn",timep2);
+                           [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:718:29:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+       if (distance>30){:%d\n[01;35m[K"[m[K,timep2);
+                             [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:718:29:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+       if (distance>30){:%d\n[01;31m[K",timep2);[m[K
+                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:718:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+       if (distance>30){[01;31m[K:[m[K%d\n",timep2);
+                        [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:741:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+       [01;31m[Kelse[m[K
+       [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:756:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+ [01;31m[K<[m[K"\trelative:"<<mav_alt.relative
+ [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:756:15:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [11][m[K’ and ‘[01m[Kmavros_msgs::Altitude_<std::allocator<void> >::_relative_type {aka float}[m[K’ to binary ‘[01m[Koperator<<[m[K’
+ <[01;31m[K"\trelative:"<<mav_alt.relative[m[K
+  [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mission_offboard.dir/src/mission_offboard.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_offboard.dir/all] Error 2
+make: *** [all] Error 2

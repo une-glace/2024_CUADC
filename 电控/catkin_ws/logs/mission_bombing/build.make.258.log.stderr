@@ -1,0 +1,30 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kvoid local_pos_odom_sb(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:486:20:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knav_msgs::Odometry {aka nav_msgs::Odometry_<std::allocator<void> >}[m[K’ and ‘[01m[Kconst geometry_msgs::TwistStamped_<std::allocator<void> >[m[K’)
+  local_pos_odom = *[01;31m[Kmsg[m[K;
+                    [01;31m[K^~~[m[K
+In file included from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:439:0[m[K:
+[01m[K/opt/ros/melodic/include/nav_msgs/Odometry.h:25:8:[m[K [01;36m[Knote: [m[Kcandidate: nav_msgs::Odometry_<std::allocator<void> >& nav_msgs::Odometry_<std::allocator<void> >::operator=(const nav_msgs::Odometry_<std::allocator<void> >&)
+ struct [01;36m[KOdometry_[m[K
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/nav_msgs/Odometry.h:25:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst geometry_msgs::TwistStamped_<std::allocator<void> >[m[K’ to ‘[01m[Kconst nav_msgs::Odometry_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/melodic/include/nav_msgs/Odometry.h:25:8:[m[K [01;36m[Knote: [m[Kcandidate: nav_msgs::Odometry_<std::allocator<void> >& nav_msgs::Odometry_<std::allocator<void> >::operator=(nav_msgs::Odometry_<std::allocator<void> >&&)
+[01m[K/opt/ros/melodic/include/nav_msgs/Odometry.h:25:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst geometry_msgs::TwistStamped_<std::allocator<void> >[m[K’ to ‘[01m[Knav_msgs::Odometry_<std::allocator<void> >&&[m[K’
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:18:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:52[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘[01m[Kstatic void boost::detail::function::void_function_invoker1<FunctionPtr, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionPtr = void (*)(const boost::shared_ptr<const geometry_msgs::TwistStamped_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&][m[K’:
+[01m[K/usr/include/boost/function/function_template.hpp:925:38:[m[K   required from ‘[01m[Kvoid boost::function1<R, T1>::assign_to(Functor) [with Functor = void (*)(const boost::shared_ptr<const geometry_msgs::TwistStamped_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:716:7:[m[K   required from ‘[01m[Kboost::function1<R, T1>::function1(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(const boost::shared_ptr<const geometry_msgs::TwistStamped_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1061:16:[m[K   required from ‘[01m[Kboost::function<R(T0)>::function(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(const boost::shared_ptr<const geometry_msgs::TwistStamped_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:504:126:[m[K   required from here
+[01m[K/usr/include/boost/function/function_template.hpp:118:11:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst boost::shared_ptr<const geometry_msgs::TwistStamped_<std::allocator<void> > >&[m[K’ from expression of type ‘[01m[Kconst boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’
+           [01;31m[KB[m[KOOST_FUNCTION_RETURN(f(BOOST_FUNCTION_ARGS));
+           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

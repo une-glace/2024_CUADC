@@ -1,0 +1,13 @@
+[01m[K/home/amov/catkin_ws/src/video_publisher/src/video_publisher_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/video_publisher/src/video_publisher_node.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ is not a member of ‘[01m[Kcv[m[K’
+     cv::[01;31m[KVideoCapture[m[K cap(0);  // 打开摄像头
+         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/video_publisher/src/video_publisher_node.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+         [01;31m[Kcap[m[K >> frame;
+         [01;31m[K^~~[m[K
+[01m[K/home/amov/catkin_ws/src/video_publisher/src/video_publisher_node.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+     [01;31m[Kcap[m[K.release();
+     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/video_publisher_node.dir/all] Error 2
+make: *** [all] Error 2

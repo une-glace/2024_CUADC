@@ -1,0 +1,48 @@
+[0m-- Found tkDNN[0m
+[0m-- Found CUDNN: /usr/local/cuda-10.2/lib64/libcudnn.so[0m
+[0m-- Found CUDNN include: /usr/local/cuda-10.2/include[0m
+[0m-- Found NVINFER: /usr/lib/aarch64-linux-gnu/libnvinfer.so[0m
+[0m-- Found NVINFER include: /usr/include/aarch64-linux-gnu[0m
+[33mCMake Warning at CMakeLists.txt:13 (message):
+  tkDNN FOUND, Version: directory: /usr/local/share/tkDNN/cmake
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:48 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:28 (message):
+  OpenCV FOUND, Version:4.5.4 directory: /usr/local/include/opencv4
+
+[0m
+[31mCMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:54 (message):
+  catkin_package_xml() package name 'tkdnn_ros' in
+  '/home/amov/catkin_ws/src/tkdnn-ros/package.xml' does not match current
+  PROJECT_NAME 'tkdnn-ros'.  You must call project() with the same package
+  name before.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)
+  CMakeLists.txt:48 (catkin_package)
+
+[0m
+make: *** [cmake_check_build_system] Error 1

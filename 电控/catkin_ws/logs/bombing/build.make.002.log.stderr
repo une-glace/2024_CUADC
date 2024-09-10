@@ -1,0 +1,18 @@
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile[m[K’ was not declared in this scope
+     if ([01;31m[Kfile[m[K.is_open()) { // 从文件中读取数据
+         [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:122:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kafile[m[K’
+     if ([01;36m[Kfile[m[K.is_open()) { // 从文件中读取数据
+         [01;36m[K^~~~[m[K
+         [32m[Kafile[m[K
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:141:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile[m[K’ was not declared in this scope
+     while ([01;31m[Kfile[m[K >> intValue >> floatValue1 >> floatValue2 ){
+            [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/bombing/src/bombing.cpp:141:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbfile[m[K’
+     while ([01;36m[Kfile[m[K >> intValue >> floatValue1 >> floatValue2 ){
+            [01;36m[K^~~~[m[K
+            [32m[Kbfile[m[K
+make[2]: *** [CMakeFiles/bombing.dir/src/bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bombing.dir/all] Error 2
+make: *** [all] Error 2

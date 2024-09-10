@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_display.dir/src/camera_display.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/amov/catkin_ws/devel/.private/camera_display/lib/camera_display/camera_display[0m
+CMakeFiles/camera_display.dir/src/camera_display.cpp.o: In function `main':
+camera_display.cpp:(.text+0x110): undefined reference to `cv::VideoCapture::VideoCapture(int)'
+camera_display.cpp:(.text+0x118): undefined reference to `cv::VideoCapture::isOpened() const'
+camera_display.cpp:(.text+0x274): undefined reference to `cv::VideoCapture::get(int) const'
+camera_display.cpp:(.text+0x288): undefined reference to `cv::VideoCapture::get(int) const'
+camera_display.cpp:(.text+0x2f4): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+camera_display.cpp:(.text+0x2f8): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+camera_display.cpp:(.text+0x388): undefined reference to `cv::VideoCapture::release()'
+camera_display.cpp:(.text+0x39c): undefined reference to `cv::VideoCapture::~VideoCapture()'
+camera_display.cpp:(.text+0x494): undefined reference to `cv::VideoCapture::~VideoCapture()'
+collect2: error: ld returned 1 exit status
+CMakeFiles/camera_display.dir/build.make:128: recipe for target '/home/amov/catkin_ws/devel/.private/camera_display/lib/camera_display/camera_display' failed
+make[2]: *** [/home/amov/catkin_ws/devel/.private/camera_display/lib/camera_display/camera_display] Error 1
+CMakeFiles/Makefile2:942: recipe for target 'CMakeFiles/camera_display.dir/all' failed
+make[1]: *** [CMakeFiles/camera_display.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

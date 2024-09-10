@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/devel/.private/camera_display
+
+Name: camera_display
+Description: Description of camera_display
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp image_transport cv_bridge

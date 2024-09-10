@@ -1,0 +1,31 @@
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:481:14:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypointReached[m[K’ in namespace ‘[01m[Kmavros_msgs[m[K’ does not name a type
+ mavros_msgs::[01;31m[KWaypointReached[m[K wayRea;
+              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:527:35:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypointReached[m[K’ in namespace ‘[01m[Kmavros_msgs[m[K’ does not name a type
+ void wayRea_sb(const mavros_msgs::[01;31m[KWaypointReached[m[K::ConstPtr& msg)
+                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:527:60:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void wayRea_sb(const mavros_msgs::WaypointReached::ConstPtr[01;31m[K&[m[K msg)
+                                                            [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:527:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:527:62:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void wayRea_sb(const mavros_msgs::WaypointReached::ConstPtr& [01;31m[Kmsg[m[K)
+                                                              [01;31m[K^~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:562:57:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypointReached[m[K’ is not a member of ‘[01m[Kmavros_msgs[m[K’
+  ros::Subscriber wayRea_sub = nh.subscribe<mavros_msgs::[01;31m[KWaypointReached[m[K>("/mavros/mission/reached", 1, wayRea_sb);
+                                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:562:57:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypointReached[m[K’ is not a member of ‘[01m[Kmavros_msgs[m[K’
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:562:104:[m[K [01;31m[Kerror: [m[K‘[01m[KwayRea_sb[m[K’ was not declared in this scope
+  ros::Subscriber wayRea_sub = nh.subscribe<mavros_msgs::WaypointReached>("/mavros/mission/reached", 1, [01;31m[KwayRea_sb[m[K);
+                                                                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:562:104:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KwayRea_sub[m[K’
+  ros::Subscriber wayRea_sub = nh.subscribe<mavros_msgs::WaypointReached>("/mavros/mission/reached", 1, [01;36m[KwayRea_sb[m[K);
+                                                                                                        [01;36m[K^~~~~~~~~[m[K
+                                                                                                        [32m[KwayRea_sub[m[K
+[01m[K/home/amov/catkin_ws/src/mission_offboard/src/mission_offboard.cpp:713:10:[m[K [01;31m[Kerror: [m[K‘[01m[KwayRea[m[K’ was not declared in this scope
+     if  ([01;31m[KwayRea[m[K.wp_seq >= 6)
+          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/mission_offboard.dir/src/mission_offboard.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_offboard.dir/all] Error 2
+make: *** [all] Error 2

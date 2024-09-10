@@ -1,0 +1,35 @@
+In file included from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/Yolo3Detection.h:6:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:19[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/src/main.cpp:1[m[K:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/DetectionNN.h:[m[K In member function ‘[01m[Kvoid tk::dnn::DetectionNN::draw(std::vector<cv::Mat>&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/DetectionNN.h:160:29:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+             for(int bi=0; [01;35m[Kbi<frames.size()[m[K; ++bi){
+                           [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/DetectionNN.h:162:31:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+                 for(int i=0; [01;35m[Ki<batchDetected[bi].size()[m[K; i++) {
+                              [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/DetectionNN.h:153:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+             int x0, [01;35m[Kw[m[K, x1, y0, h, y1;
+                     [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/DetectionNN.h:153:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+             int x0, w, x1, y0, [01;35m[Kh[m[K, y1;
+                                [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/tkDNN/installed/include/tkDNN/DetectionNN.h:154:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KobjClass[m[K’ [[01;35m[K-Wunused-variable[m[K]
+             int [01;35m[KobjClass[m[K;
+                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/src/main.cpp:1:0[m[K:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:[m[K In constructor ‘[01m[Ktkdnn_ros_class::tkdnn_ros_class(ros::NodeHandle&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:81:58:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((tkdnn_ros_class*)this)->tkdnn_ros_class::resolution.std::vector<double>::operator[](0)[m[K’ from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double> >::value_type {aka double}[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+         cv::Size img_size = {resolution[0], resolution[1][01;35m[K}[m[K;
+                                                          [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:81:58:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((tkdnn_ros_class*)this)->tkdnn_ros_class::resolution.std::vector<double>::operator[](1)[m[K’ from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double> >::value_type {aka double}[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+In file included from [01m[K/home/amov/catkin_ws/src/tkdnn-ros/src/main.cpp:1:0[m[K:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:[m[K In member function ‘[01m[Kvoid tkdnn_ros_class::comp_img_callback(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:138:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < detNN->batchDetected[0].size()[m[K; ++i){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:[m[K In member function ‘[01m[Kvoid tkdnn_ros_class::img_callback(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/tkdnn-ros/include/main.h:196:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < detNN->batchDetected[0].size()[m[K; ++i){
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/melodic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5

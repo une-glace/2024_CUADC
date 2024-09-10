@@ -1,0 +1,23 @@
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:63:49:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Klocal_pos_transfer.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+  float data[]={[01;35m[Klocal_pos_transfer.pose.position.x[m[K,local_pos_transfer.pose.position.y};
+                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:63:84:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Klocal_pos_transfer.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+  float data[]={local_pos_transfer.pose.position.x,[01;35m[Klocal_pos_transfer.pose.position.y[m[K};
+                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:329:3:[m[K [01;31m[Kerror: [m[Kjump to case label [[01;31m[K-fpermissive[m[K]
+   [01;31m[Kdefault[m[K:
+   [01;31m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:308:18:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::ifstream file[m[K’
+    std::ifstream [01;36m[Kfile[m[K("/home/amov/Desktop/target.txt");
+                  [01;36m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:305:8:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint target_c[m[K’
+    int [01;36m[Ktarget_c[m[K =0;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:342:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

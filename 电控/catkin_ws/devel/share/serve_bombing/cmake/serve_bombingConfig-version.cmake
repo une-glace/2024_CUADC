@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/serve_bombing/share/serve_bombing/cmake/serve_bombingConfig-version.cmake

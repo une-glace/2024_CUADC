@@ -1,0 +1,20 @@
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+  outFile <<local_pos_transfer.pose.[01;31m[Kx[m[K << " " << local_pos_transfer.pose.y << " " << local_pos_transfer.pose.z << std::endl;
+                                    [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+  outFile <<local_pos_transfer.pose.x << " " << local_pos_transfer.pose.[01;31m[Ky[m[K << " " << local_pos_transfer.pose.z << std::endl;
+                                                                        [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:64:108:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type {aka struct geometry_msgs::Pose_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+  outFile <<local_pos_transfer.pose.x << " " << local_pos_transfer.pose.y << " " << local_pos_transfer.pose.[01;31m[Kz[m[K << std::endl;
+                                                                                                            [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kvoid local_pos_sb(const ConstPtr&)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:73:26:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kgeometry_msgs::PoseStamped& {aka geometry_msgs::PoseStamped_<std::allocator<void> >&}[m[K’ from expression of type ‘[01m[Kconst ConstPtr {aka const boost::shared_ptr<const geometry_msgs::PoseStamped_<std::allocator<void> > >}[m[K’
+  position_transfer_write([01;31m[Kmsg[m[K);
+                          [01;31m[K^~~[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:54:13:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid position_transfer_write(geometry_msgs::PoseStamped&)[m[K’
+ inline void [01;36m[Kposition_transfer_write[m[K(geometry_msgs::PoseStamped &local_pos){
+             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

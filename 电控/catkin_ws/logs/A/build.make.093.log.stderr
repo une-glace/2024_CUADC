@@ -1,0 +1,36 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:102:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kserial::Serial::write(int)[m[K’
+  serialPort.write(59[01;31m[K)[m[K;
+                     [01;31m[K^[m[K
+In file included from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:16:0[m[K:
+[01m[K/opt/ros/melodic/include/serial/serial.h:372:3:[m[K [01;36m[Knote: [m[Kcandidate: size_t serial::Serial::write(const uint8_t*, size_t)
+   [01;36m[Kwrite[m[K (const uint8_t *data, size_t size);
+   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/serial/serial.h:372:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/melodic/include/serial/serial.h:387:3:[m[K [01;36m[Knote: [m[Kcandidate: size_t serial::Serial::write(const std::vector<unsigned char>&)
+   [01;36m[Kwrite[m[K (const std::vector<uint8_t> &data);
+   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/serial/serial.h:387:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<unsigned char>&[m[K’
+[01m[K/opt/ros/melodic/include/serial/serial.h:402:3:[m[K [01;36m[Knote: [m[Kcandidate: size_t serial::Serial::write(const string&)
+   [01;36m[Kwrite[m[K (const std::string &data);
+   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/serial/serial.h:402:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:163:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kserial::Serial::write(int)[m[K’
+      serialPort.write(1[01;31m[K)[m[K;
+                        [01;31m[K^[m[K
+In file included from [01m[K/home/amov/catkin_ws/src/A/src/A.cpp:16:0[m[K:
+[01m[K/opt/ros/melodic/include/serial/serial.h:372:3:[m[K [01;36m[Knote: [m[Kcandidate: size_t serial::Serial::write(const uint8_t*, size_t)
+   [01;36m[Kwrite[m[K (const uint8_t *data, size_t size);
+   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/serial/serial.h:372:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/melodic/include/serial/serial.h:387:3:[m[K [01;36m[Knote: [m[Kcandidate: size_t serial::Serial::write(const std::vector<unsigned char>&)
+   [01;36m[Kwrite[m[K (const std::vector<uint8_t> &data);
+   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/serial/serial.h:387:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<unsigned char>&[m[K’
+[01m[K/opt/ros/melodic/include/serial/serial.h:402:3:[m[K [01;36m[Knote: [m[Kcandidate: size_t serial::Serial::write(const string&)
+   [01;36m[Kwrite[m[K (const std::string &data);
+   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/serial/serial.h:402:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2

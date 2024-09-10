@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o[0m
+[01m[K/home/amov/catkin_ws/src/video_publisher/src/video_publisher_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/video_publisher/src/video_publisher_node.cpp:19:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+             sensor_msgs::ImagePtr image_msg = [01;31m[Kcv_bridge[m[K::CvImage(std_msgs::Header(), "bgr8", frame).toImageMsg();
+                                               [01;31m[K^~~~~~~~~[m[K
+CMakeFiles/video_publisher_node.dir/build.make:75: recipe for target 'CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o' failed
+make[2]: *** [CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o] Error 1
+CMakeFiles/Makefile2:942: recipe for target 'CMakeFiles/video_publisher_node.dir/all' failed
+make[1]: *** [CMakeFiles/video_publisher_node.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

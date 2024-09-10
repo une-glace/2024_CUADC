@@ -1,0 +1,10 @@
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:100:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+   case 0:[01;31m[Ke[m[K   
+          [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/flight/src/fly.cpp:113:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+    [01;31m[Kelse[m[K if (current_state.armed && ok == 0) {
+    [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

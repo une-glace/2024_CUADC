@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/read_and_display/share/read_and_display/cmake/read_and_displayConfig.cmake

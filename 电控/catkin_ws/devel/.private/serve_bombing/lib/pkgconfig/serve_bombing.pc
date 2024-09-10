@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/devel/.private/serve_bombing
+
+Name: serve_bombing
+Description: Description of serve_bombing
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

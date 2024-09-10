@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/tkdnn_ros/lib/python2.7/dist-packages/tkdnn_ros/msg/_bbox.py

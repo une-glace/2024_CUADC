@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/tkdnn_ros/share/tkdnn_ros/cmake/tkdnn_rosConfig.cmake

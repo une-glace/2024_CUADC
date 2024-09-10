@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/install
+
+Name: mission_bombing
+Description: Description of mission_bombing
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

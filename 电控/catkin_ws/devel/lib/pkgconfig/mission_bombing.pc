@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/mission_bombing/lib/pkgconfig/mission_bombing.pc

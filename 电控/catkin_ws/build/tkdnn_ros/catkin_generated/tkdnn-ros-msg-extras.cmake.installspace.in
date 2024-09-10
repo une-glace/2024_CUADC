@@ -1,0 +1,2 @@
+set(tkdnn-ros_MESSAGE_FILES "msg/bbox.msg;msg/bboxes.msg")
+set(tkdnn-ros_SERVICE_FILES "")

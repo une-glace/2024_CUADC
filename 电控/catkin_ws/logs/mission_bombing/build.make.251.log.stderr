@@ -1,0 +1,14 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:479:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+  for(int i=1;i<=1000;i++) {[01;31m[Ks[m[K/erialPort.write("1\n");}
+                            [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:479:30:[m[K [01;31m[Kerror: [m[K‘[01m[KerialPort[m[K’ was not declared in this scope
+  for(int i=1;i<=1000;i++) {s/[01;31m[KerialPort[m[K.write("1\n");}
+                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:479:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KserialPort[m[K’
+  for(int i=1;i<=1000;i++) {s/[01;36m[KerialPort[m[K.write("1\n");}
+                              [01;36m[K^~~~~~~~~[m[K
+                              [32m[KserialPort[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

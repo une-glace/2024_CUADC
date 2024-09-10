@@ -1,0 +1,7 @@
+[01m[K/home/amov/catkin_ws/src/read_and_display/src/read_and_display.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/read_and_display/src/read_and_display.cpp:44:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kros[m[K’
+         [01;31m[Kros[m[K::spinOnce();
+         [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/read_and_display.dir/src/read_and_display.cpp.o] Error 1
+make[1]: *** [CMakeFiles/read_and_display.dir/all] Error 2
+make: *** [all] Error 2

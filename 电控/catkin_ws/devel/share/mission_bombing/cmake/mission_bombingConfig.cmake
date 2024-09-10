@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/mission_bombing/share/mission_bombing/cmake/mission_bombingConfig.cmake

@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/tkdnn_ros/share/common-lisp/ros/tkdnn_ros/msg/tkdnn_ros-msg.asd

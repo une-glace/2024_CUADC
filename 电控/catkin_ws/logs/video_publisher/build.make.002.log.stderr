@@ -1,0 +1,7 @@
+[01m[K/home/amov/catkin_ws/src/video_publisher/src/video_publisher_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kopencv/opencv.hpp: No such file or directory
+ #include [01;31m[K<opencv/opencv.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/video_publisher_node.dir/all] Error 2
+make: *** [all] Error 2

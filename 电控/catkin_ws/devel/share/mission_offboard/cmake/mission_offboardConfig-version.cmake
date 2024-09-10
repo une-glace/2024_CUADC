@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/mission_offboard/share/mission_offboard/cmake/mission_offboardConfig-version.cmake

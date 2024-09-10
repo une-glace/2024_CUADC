@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/install
+
+Name: write_to_txt
+Description: Description of write_to_txt
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

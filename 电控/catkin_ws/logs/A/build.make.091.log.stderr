@@ -1,0 +1,20 @@
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:102:2:[m[K [01;31m[Kerror: [m[K‘[01m[KserialPort[m[K’ was not declared in this scope
+  [01;31m[KserialPort[m[K.write(59);
+  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:148:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+     [01;31m[Kelse[m[K
+     [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:156:4:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K3[m[K’ not within a switch statement
+    [01;31m[Kcase[m[K 3:
+    [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:163:6:[m[K [01;31m[Kerror: [m[K‘[01m[KserialPort[m[K’ was not declared in this scope
+      [01;31m[KserialPort[m[K.write(1);
+      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:[m[K At global scope:
+[01m[K/home/amov/catkin_ws/src/A/src/A.cpp:170:4:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   }[01;31m[K}[m[K
+    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/A.dir/src/A.cpp.o] Error 1
+make[1]: *** [CMakeFiles/A.dir/all] Error 2
+make: *** [all] Error 2
